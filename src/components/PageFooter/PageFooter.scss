@@ -1,0 +1,15 @@
+/**
+ * Styles for the page footer component.
+ */
+
+.page-footer {
+  background-color: #0088ce;
+  display: block;
+  color: white;
+  padding: 10px;
+
+  a:link,
+  a:visited {
+    color: white;
+  }
+}

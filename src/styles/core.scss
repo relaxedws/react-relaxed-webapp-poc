@@ -1,0 +1,40 @@
+:global {
+  @import 'base';
+  @import 'vendor/normalize';
+
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    font: 15px/1.4 $trebuchet-font-stack;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  a:link,
+  a:visited {
+    color: $color-primary;
+    text-decoration: none;
+  }
+
+  a.active,
+  a:active {
+    color: $color-almost-black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
