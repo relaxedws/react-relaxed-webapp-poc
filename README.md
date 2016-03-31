@@ -1,6 +1,8 @@
 relaxed-react-webapp-poc
 ========================
 
+[![Build Status](https://travis-ci.org/relaxedws/react-relaxed-webapp-poc.svg?branch=master)](https://travis-ci.org/relaxedws/react-relaxed-webapp-poc)
+
 Simple React web application, designed to synchronise and display
 content from [Drupal][] via [PouchDB][] and [RELAXed][].
 
