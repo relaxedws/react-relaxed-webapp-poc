@@ -34,8 +34,7 @@ export class EntityView extends React.Component {
     // Dispatch to type-specific renderers.
     if (!entity || !entity._id) {
       return <div className='status-loading'>Loading…</div>
-    }
-    else if (entityType === 'node') {
+    } else if (entityType === 'node') {
       let nodeType = get(entity, 'type.0.target_id')
 
       if (nodeType === 'article') {
@@ -52,7 +51,6 @@ export class EntityView extends React.Component {
       // components to render entities defined elsewhere.
       return <div className='error-message'>No entity renderer available for entity of type <em>{entityType}</em>.</div>
     }
-
   }
 }
 
