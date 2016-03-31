@@ -8,8 +8,9 @@ const DrupalMenu = components.DrupalMenu
 function PageHeader ({ menuItems }) {
   return (
     <header className={classes['page-header']}>
-      <Link className={classes['logo']} to='/'>
-        <img alt='Drugpal Pharmaceuticals' src='/drugpal-logo.svg' height='30' />
+      <Link className={classes['identity']} to='/'>
+        <img alt='Drugpal Pharmaceuticals' src='/drugpal-logo.svg' />
+        <span className={classes['name']}>Drugpal Pharmaceuticals</span>
       </Link>
       <DrupalMenu className='main-menu menu-level-1' items={menuItems} level='1' />
     </header>
