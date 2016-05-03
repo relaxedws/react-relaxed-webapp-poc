@@ -10,12 +10,12 @@
 
 export default {
   database: {
-    databaseName: 'relaxed',
+    databaseName: 'relaxedws-demo',
     // Determines whether to receive live updates from the remote
     // server, by subscribing to its changes feed.
     live: true,
-    serverURL: 'http://localhost:5984/',
-    userName: 'test',
-    userPass: 'test'
+    serverURL: 'https://mikl.cloudant.com/',
+    userName: 'histonsirturserthentonde',
+    userPass: 'bdd7e78da4aeffaec6a50e24e727148c6698050f'
   }
 }
