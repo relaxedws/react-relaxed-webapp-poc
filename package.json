@@ -2,6 +2,7 @@
   "name": "relaxed-react-webapp-poc",
   "version": "1.0.0",
   "description": "React PoC for RELAXed",
+  "private": true,
   "main": "index.js",
   "engines": {
     "node": ">=4.2.0",
